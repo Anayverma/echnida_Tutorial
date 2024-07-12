@@ -137,8 +137,3 @@ Echidna is a powerful property-based fuzzer for Ethereum smart contracts. It is 
 
 Echidna helps developers and auditors identify security vulnerabilities such as reentrancy bugs, integer overflows, and other unexpected behaviors that could compromise the security and correctness of smart contracts.
 
-## What is Slither?
-
-Slither is a static analysis tool for Solidity smart contracts. It is also developed by Trail of Bits and is designed to analyze smart contracts to identify potential vulnerabilities and issues without executing the code. Slither checks for common pitfalls and security issues in Solidity code, providing developers with insights into potential risks and areas for improvement.
-
-Slither can detect issues such as reentrancy vulnerabilities, uninitialized state variables, gas limit vulnerabilities, and many other common vulnerabilities found in smart contracts. It is an essential tool in the toolkit of smart contract developers and auditors to ensure the security and robustness of Ethereum-based applications.
