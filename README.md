@@ -100,9 +100,11 @@ Please refer to the provided screenshots for each step:
 3. **Running Echidna:**
    - ![Echidna Running](https://i.postimg.cc/7LFtYf7K/Screenshot-2024-07-12-124716.png)
 
-4. **Echidna Test Results:**
+4. **Echidna Test Result without minting :**
    - ![Test Results Without Minting](https://i.postimg.cc/HxPG2p75/Screenshot-2024-07-12-115705.png)
-   - ![Test Results With Minting](https://i.postimg.cc/HxPG2p75/Screenshot-2024-07-12-115705.png)
+
+5. **Echidna Test Result with minting :**
+   - ![Test Results With Minting](https://i.postimg.cc/pV4b5LvM/Screenshot-2024-07-12-115416.png)
 
 ## Understanding the Results
 
@@ -126,3 +128,17 @@ To address this issue and maintain the invariant (total supply consistency):
 
 - Adjust the `testMint` function or any other minting logic to ensure that changes to the total supply are properly managed and do not violate the expected invariant.
 - Implement additional checks or modify the contract logic to enforce the invariant condition during minting or burning operations.
+
+### Some FAQs
+
+## What is Echidna?
+
+Echidna is a powerful property-based fuzzer for Ethereum smart contracts. It is developed by Trail of Bits and is used for automated testing and analysis of Solidity contracts. Echidna works by generating random inputs to test for vulnerabilities, edge cases, and compliance with specified properties or invariants within the smart contracts.
+
+Echidna helps developers and auditors identify security vulnerabilities such as reentrancy bugs, integer overflows, and other unexpected behaviors that could compromise the security and correctness of smart contracts.
+
+## What is Slither?
+
+Slither is a static analysis tool for Solidity smart contracts. It is also developed by Trail of Bits and is designed to analyze smart contracts to identify potential vulnerabilities and issues without executing the code. Slither checks for common pitfalls and security issues in Solidity code, providing developers with insights into potential risks and areas for improvement.
+
+Slither can detect issues such as reentrancy vulnerabilities, uninitialized state variables, gas limit vulnerabilities, and many other common vulnerabilities found in smart contracts. It is an essential tool in the toolkit of smart contract developers and auditors to ensure the security and robustness of Ethereum-based applications.
