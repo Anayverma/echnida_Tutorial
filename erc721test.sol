@@ -106,10 +106,10 @@ contract EchidnaTestERC721 {
     }
 
     // Function to test minting new NFTs
-    // function testMint(address to) public {
-    //     uint256 previousSupply = token.totalSupply();
-    //     token.mint(to);
-    //     uint256 newSupply = token.totalSupply();
-    //     assert(newSupply == previousSupply + 1); // Check if total supply increased by 1
-    // }
+    function testMint(address to) public {
+        uint256 previousSupply = token.totalSupply();
+        token.mint(to);
+        uint256 newSupply = token.totalSupply();
+        assert(newSupply == previousSupply + 1); // Check if total supply increased by 1
+    }
 }
